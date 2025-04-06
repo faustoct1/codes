@@ -8,7 +8,7 @@ const App = () => {
       const json = await response.json()
       console.log(json)
     }catch(e){
-      console.log(e
+      console.log(e)
     }
   }
   useEffect(()=>{
